@@ -2,7 +2,13 @@
   {
     "id": 1,
     "title": "FireKubeX",
-    "shortDescription": "Simplifies Kubernetes, easing app deployment for developers."
+    "shortDescription": "Simplifies Kubernetes, easing app deployment for developers.",
+    "Summary": "This script simplifies the deployment process for developers by abstracting the complexities of Kubernetes. By providing the necessary configuration in the config.yaml file, developers can quickly deploy their applications to a Kubernetes cluster with ease without the need for in-depth Kubernetes knowledge. It also supports starting and stopping services, along with options for development (dev) and production (prod) modes. The config.yaml is intended for individual microservices. It aims to enhance the efficiency of deploying and scaling microservices by providing a flexible and customizable solution.",
+    "project_type": "Developer Tools and Utilities",
+    "contributors": ["jagannathmfs", "amitshr6779"],
+    "project_goal": "The script is designed to handle multiple services, making it scalable for diverse microservices architectures. Additionally, it can be extended easily to incorporate additional features or adapt to evolving Kubernetes best practices.",
+    "target_users": "Targeted users will be the developers who needs to deploy their applications in a kubernetes cluster on their own local system or in any cloud kubernetes like (EKS,AKS,GKE).",
+    "risk": "Potential risks related to conflicting with proprietary IP or current customer work if any: None"
   },
   {
     "id": 2,
